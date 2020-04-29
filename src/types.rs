@@ -10,4 +10,13 @@ pub fn run() {
     println!("Max i32: {}", std::i32::MAX);
 
     //i32 vs u32 -> u.OnlyPositiveNumber
+
+    let is_active = true;
+
+    let is_greater: bool = 5 > 10;
+
+    let _char = 'a';
+    let face = '\u{1F600}';
+
+    println!("{:?}", (x, y, z, is_active, is_greater, _char, face))
 }
