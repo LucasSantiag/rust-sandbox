@@ -10,4 +10,10 @@ pub fn run() {
     age = 18;        
     
     println!("My name is {} and I am {}", name, age);
+
+    const ID: i32 = 989;
+    println!("ID: {}", ID);
+
+    let (_name, _age) = ("Lucas", 18);
+    println!("My name is {} and I am {}", _name, _age);
 }
